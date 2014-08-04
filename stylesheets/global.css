@@ -1,0 +1,67 @@
+@import 'lib/bootstrap.css';
+@import 'lib/font-awesome.css';
+/* ===============================
+    LESS VARIABLES
+   =============================== */
+/* ===============================
+    LESS MIXINS
+   =============================== */
+/* ===============================
+    GLOBAL STYLES
+   =============================== */
+img {
+  max-width: 100%;
+}
+.browser-warning {
+  background: #BD3535;
+  color: #fff;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.browser-warning a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  left: 25%;
+  top: 35%;
+  width:50%;
+  padding: 20px 20px;
+  background: rgba(255,255,255,0.6);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background: #000;
+  height: 30px;
+}
+
+a {
+  color: #414141;
+  line-height: 30px;
+}
+
+a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 90%;
+    left: 5%;
+  }
+}
